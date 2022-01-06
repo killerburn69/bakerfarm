@@ -1,0 +1,92 @@
+.testimonial-section{
+    margin-bottom: 60px;
+    padding: 100px 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('./backgroundImage/wood\ back.jpg');
+    height: 800px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    font-family: 'Raleway',sans-serif;
+    color: #f1f1ff;
+}
+.testimonial-heading{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.testimonial-review{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial-review img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.testimonial-review i{
+    align-self: flex-start;
+    font-size: 30px;
+}
+.testimonial-review p{
+    width: 90%;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.testimonial-review a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f1f1ff;
+    padding: 5px 12px;
+    border-bottom: 2px solid #e79d3c;
+    display: inline-block;
+    transition: ease-in-out .4s;
+}
+.testimonial-review a:hover{
+    transform: scale(1.08) translateY(-4px);
+}
+@media only screen and (max-width:735px) {
+    .testimonial-heading{
+        font-size: 20px;
+    }
+    .testimonial-review img{
+        width: 150px;
+    }
+    .testimonial-review i{
+        font-size: 20px;
+    }
+    .testimonial-review p{
+        font-size: 14px;
+    }
+    .testimonial-review a{
+        font-size: 14px;
+    }
+}
+@media (min-width:736px) and (max-width:1116px) {
+    .testimonial-section{
+        height: 600px;
+    }
+    .testimonial-heading{
+        font-size: 20px;
+    }
+    .testimonial-review img{
+        width: 150px;
+    }
+    .testimonial-review i{
+        font-size: 20px;
+    }
+    .testimonial-review p{
+        font-size: 14px;
+    }
+    .testimonial-review a{
+        font-size: 14px;
+    }
+}
